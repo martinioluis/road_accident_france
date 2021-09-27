@@ -1,0 +1,13 @@
+.Accident-2017 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #354A66;
+    color: #ffffff;
+
+    .title {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,107 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .Comparison {
+      .comparison-2018 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          padding-bottom: 5px;
+      }
+      .comparison-2017 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+      .killed-month-17-18 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .male-female-month {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .casuality-injury {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .Comparison {
+      .comparison-2018 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-bottom: 5px;
+      }
+      .comparison-2017 {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+    }
+    h2 {
+        padding: 5vw 0;
+    }
+    .comparison-2017 {
+        padding-bottom: 5vw;
+    }
+  }
